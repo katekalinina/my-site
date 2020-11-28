@@ -38,6 +38,7 @@ body {
 
 .header-email {
   padding-left: 30px;
+  margin-right: 50px;
   background-image: url("img/icon-email.svg");
 }
 
@@ -182,12 +183,12 @@ body {
 }
 
 .page-footer {
+  height: 90px;
   padding: 40px 0;
   background-color: #260c26;
 }
 
 .page-footer a {
-  margin-left: 56px;
   color: #fea18d;
   text-decoration: none;
   background-repeat: no-repeat;
@@ -195,11 +196,57 @@ body {
 }
 
 .footer-email {
-  padding-left: 30px;
+  display: block;
+  float: right;
+  width: 220px;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-right: 50px;
   background-image: url("img/icon-email.svg");
 }
 
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone.svg");
+}
+
+.main-menu {
+  float: left;
+  padding: 0;
+  margin: 0;
+  margin-left: 100px;
+  list-style: none;
+}
+
+.main-menu li {
+  float: left;
+}
+
+.socials {
+  float: left;
+  padding: 0;
+  margin: 0;
+  margin-left: 50px;
+  width: 270px;
+  list-style: none;
+}
+
+.socials li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.socials li:last-child {
+  margin-right: 0;
+}
+
+.socials a {
+  display: inline-block;
+  width: 67px;
+  height: 60px;
+  padding-top: 7px;
+  margin: 0;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #fea18d;
 }
