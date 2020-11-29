@@ -250,3 +250,7 @@ body {
   text-align: center;
   background-color: #fea18d;
 }
+
+.about-me-text a {
+  color: white;
+}
